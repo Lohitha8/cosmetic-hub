@@ -37,31 +37,35 @@ const price = [
 const continents = [
     {
         "_id": 1,
-        "name": "Africa"
+        "name": "Lakme"
     },
     {
         "_id": 2,
-        "name": "Europe"
+        "name": "Loreal"
     },
     {
         "_id": 3,
-        "name": "Asia"
+        "name": "Maybelline"
     },
     {
         "_id": 4,
-        "name": "North America"
+        "name": "MAC"
     },
     {
         "_id": 5,
-        "name": "South America"
+        "name": "Colorbar"
     },
     {
         "_id": 6,
-        "name": "Australia"
+        "name": "Revlon"
     },
     {
         "_id": 7,
-        "name": "Antarctica"
+        "name": "NYX"
+    },
+    {
+        "_id": 8,
+        "name": "Wet n Wild"
     }
 ]
 

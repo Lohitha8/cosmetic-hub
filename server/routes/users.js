@@ -12,8 +12,6 @@ const async = require('async');
 //=================================
 
 router.get("/auth", auth, (req, res) => {
-    console.log(req);
-    console.log(res);
     res.status(200).json({
         _id: req.user._id,
         isAdmin: req.user.role === 0 ? false : true,
