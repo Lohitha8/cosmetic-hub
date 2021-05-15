@@ -8,10 +8,10 @@ function ProductImage(props) {
         if (props.detail.images && props.detail.images.length > 0) {
             let images = [];
 
-            props.detail.images && props.detail.images.map(item => {
+            props.detail.images && props.detail.images.map(image => {
                 images.push({
-                    original: `http://localhost:5000/${item}`,
-                    thumbnail: `http://localhost:5000/${item}`
+                    original: image.includes('http') ? image : `http://localhost:5000/${image}`,
+                    thumbnail: image.includes('http') ? image : `http://localhost:5000/${image}`
                 })
             })
             setImages(images)
